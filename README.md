@@ -49,7 +49,7 @@ The anomaly labels are provided in .npy format, with one label file for each vid
 
 ## Benchmarking
 
-We provide benchmark results for top pose-based anomaly detection models tested on the PoseLift dataset.
+We provide benchmark results for the State-of-the-art pose-based anomaly detection models tested on the PoseLift dataset.
 
 | Methods          | AUC-ROC | AUC-PR| EER |
 |------------------|---------|-------|-----|
@@ -59,8 +59,14 @@ We provide benchmark results for top pose-based anomaly detection models tested 
 
 ## Usage
 PoseLift is designed for research on shoplifting detection, particularly in real-world retail settings. Researchers can use the dataset for:
+
+
 •	Training and evaluating pose-based anomaly detection models.
+
+
 •	Developing privacy-preserving systems for surveillance and security in retail environments.
+
+
 •	Exploring methods for detecting complex behaviors like shoplifting in natural settings.
 
 ## Citation
