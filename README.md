@@ -59,6 +59,10 @@ We provide benchmark results for the State-of-the-art pose-based anomaly detecti
 |TSGAD           |   63.35    |  39.31       | 0.41    |
 | GEPC          |   60.61    |  50.38       | 0.38  |
 
+
+## Dataset Download Instructions
+To download the dataset and annotations, please use the following link:
+
 ## Usage
 PoseLift is designed for research on shoplifting detection, particularly in real-world retail settings. Researchers can use the dataset for:
 
