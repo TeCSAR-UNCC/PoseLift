@@ -15,13 +15,7 @@ PoseLift is a dataset created specifically for detecting shoplifting behaviors u
 - **Video Lengths & Frame Rates**: Videos range from a few seconds to over 5 minutes, with a resolution of 1920x1080 and a frame rate of 15 fps.
 - **Pose Data Extraction**: Anonymized pose data is extracted using state-of-the-art models like YOLOv8 for object detection, ByteTrack for person tracking, and HRNet for human pose estimation.
 - **Data Modifications**: To address occlusions caused by store shelves, specific areas of interest for each camera were defined. Missing poses were interpolated, and data smoothing was applied for continuity.
-## Benchmarking
-We provide benchmark results for top pose-based anomaly detection models tested on the PoseLift dataset.
 
-To add a table in your GitHub repository's README file (or any Markdown file), you can use the Markdown table syntax. Here's an example of how you could include a table under the Benchmarking section:
-
-markdown
-Copy code
 ## Benchmarking
 
 We provide benchmark results for top pose-based anomaly detection models tested on the PoseLift dataset.
