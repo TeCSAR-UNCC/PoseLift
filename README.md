@@ -1,7 +1,7 @@
 # PoseLift: Exploring Pose-Based Anomaly Detection for Retail Security: A Real-World Shoplifting Dataset and Benchmark
 
 ## Overview
-This directory contains the PoseLift dataset published in WACV 2025 conference. PoseLift is a dataset created specifically for detecting shoplifting behaviors using pose-based anomaly detection techniques. Built in collaboration with a retail store, PoseLift captures real-world shopping and shoplifting behaviors while addressing key challenges such as privacy concerns. PoseLift dataset includes bounding box, person ID, and pose annotations, along with frame-level labels for shoplifting, categorizing all frames into two groups: normal behavior or shoplifting.
+This directory contains the PoseLift dataset published in WACV 2025 conference. PoseLift is a dataset created specifically for detecting shoplifting behaviors using pose-based anomaly detection techniques. Built in collaboration with a retail store, PoseLift captures real-world shopping and shoplifting behaviors while addressing key challenges such as privacy concerns. The PoseLift dataset includes pose sequence data and frame-level labels for shoplifting.
 
 ## Dataset Description
 ### Features
@@ -22,7 +22,7 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 
 
 ## Data Processing
-- **Video Lengths & Frame Rates**: Videos range from a few seconds to over 5 minutes, with a resolution of 1920x1080 and a frame rate of 15 fps.
+- **Video Lengths & Frame Rates**: Original videos range from a few seconds to over 5 minutes, with a resolution of 1920x1080 and a frame rate of 15 fps.
 
   
 - **Pose Data Extraction**: Anonymized pose data is extracted using state-of-the-art models like YOLOv8 for object detection, ByteTrack for person tracking, and HRNet for human pose estimation.
@@ -43,7 +43,7 @@ The annotations are organized in a dictionary structure, with each key represent
 - **Keypoints**: Represented in the XYC format, where X and Y are the coordinates of key points, and C is the confidence score associated with the detection of each keypoint.
 
 
-The anomaly labels are provided in .npy format, with one label file for each video. The labeling follows the same naming pattern as the corresponding video file, ensuring easy mapping between the video and its labels. So,each label file contains a NumPy array of binary values (0s and 1s). The length of the array corresponds to the total number of frames in the respective video. A value of 0 indicates a "normal" frame, where no shoplifting behavior is detected. A value of 1 indicates an "anomalous" frame, where shoplifting behavior is identified based on the observed actions within that frame.
+The anomaly labels are provided in .npy format, with one label file for each video. The labeling follows the same naming pattern as the corresponding video file, ensuring easy mapping between the video and its labels. So,each label file contains a NumPy array of binary values (0s and 1s), categorizing all frames into two groups: normal behavior or shoplifting. The length of the array corresponds to the total number of frames in the respective video. A value of 0 indicates a "normal" frame, where no shoplifting behavior is detected. A value of 1 indicates an "anomalous" frame, where shoplifting behavior is identified based on the observed actions within that frame.
 
 ## Benchmarking
 
