@@ -50,7 +50,7 @@ The anomaly labels are provided in .npy format, with one label file for each vid
 ## Benchmarking
 
 We provide benchmark results for the State-of-the-art pose-based anomaly detection models tested on the PoseLift dataset.
-
+**Table 1: Comparison of three performance metrics (AUC-ROC, AUC-PR, and EER) across three state-of-the-art models on the PoseLift dataset.**
 | Methods          | AUC-ROC | AUC-PR| EER |
 |------------------|---------|-------|-----|
 | STG-NF         |    67.46   | 84.06        | 0.39   |
