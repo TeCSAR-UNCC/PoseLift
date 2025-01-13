@@ -10,10 +10,17 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 
 
 2-**Real-World Data and Diverse Shoplifting Behaviors**: Recorded in a retail store with various camera views, the footage includes both normal shopping and shoplifting behaviors. The dataset captures a broad range of shoplifting scenarios in different locations across the store. The shoplifting behaviors demonstrated in these videos included actions such as placing items into pockets, placing them in bags, and hiding them under shirts, jackets, and pants.
+
+
 3-**Pose-Based Annotations**: PoseLift provides bounding boxes, person IDs, and human pose annotations instead of raw videos to support privacy-preserving shoplifting detection.
+
+
 4-**Camera Views**: 6 indoor cameras (C1 to C6) from various aisles and locations.
+
+
 5-**Shoplifting and Shopping Instances**: The dataset consists of 153 files, including 43 instances of shoplifting and 110 instances of regular shopping activities. These were captured from various angles and locations to ensure diverse scenarios.
 
+---
 ## Data Processing
 - **Video Lengths & Frame Rates**: Videos range from a few seconds to over 5 minutes, with a resolution of 1920x1080 and a frame rate of 15 fps.
 - **Pose Data Extraction**: Anonymized pose data is extracted using state-of-the-art models like YOLOv8 for object detection, ByteTrack for person tracking, and HRNet for human pose estimation.
