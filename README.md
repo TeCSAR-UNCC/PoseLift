@@ -31,10 +31,12 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 - **Data Modifications**: To address occlusions caused by store shelves, specific areas of interest for each camera were defined. Missing poses were interpolated, and data smoothing was applied for continuity.
 
 
-## Annotations and shoplifting labels:
+## Annotations and Shoplifting Labels:
 Each video in the PoseLift dataset is paired with a unique annotation file stored in the .pkl (pickle) format, resulting in a total of 153 annotation files. The naming of the files has the following pattern:
 
 <camera_number>_<video_number>.pkl
+
+
 Where camera_number refers to the specific camera that captured the video, and video_number serves as a unique identifier for each video recorded within the retail store.
 Each file offer detailed frame-by-frame annotations, including Person ID, bounding box, and keypoints for each individual in the frame.
 The annotations are organized in a dictionary structure, with each key representing a specific frame number. For each frame, the annotation includes:
