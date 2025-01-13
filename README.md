@@ -1,5 +1,4 @@
 # PoseLift: 
-
 Exploring Pose-Based Anomaly Detection for Retail Security: A Real-World Shoplifting Dataset and Benchmark
 
 ## Overview
