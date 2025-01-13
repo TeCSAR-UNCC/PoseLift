@@ -33,13 +33,17 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 
 ## Annotations and shoplifting labels:
 Each video in the PoseLift dataset is paired with a unique annotation file stored in the .pkl (pickle) format, resulting in a total of 153 annotation files. The naming of the files has the following pattern:
-<camera_number>_<video_number>.pkl
 
-These files offer detailed frame-by-frame annotations, including Person ID, bounding box, and keypoints for each individual in the frame.
+<camera_number>_<video_number>.pkl
+Where camera_number refers to the specific camera that captured the video, and video_number serves as a unique identifier for each video recorded within the retail store.
+Each file offer detailed frame-by-frame annotations, including Person ID, bounding box, and keypoints for each individual in the frame.
 The annotations are organized in a dictionary structure, with each key representing a specific frame number. For each frame, the annotation includes:
 - **Person ID**: A unique identifier for each individual detected in the frame.
 - **Bounding Box**: Defined in the XYWH format, where X and Y are the coordinates , W is the width, and H is the height of the bounding box.
 - **Keypoints**: Represented in the XYC format, where X and Y are the coordinates of key points, and C is the confidence score associated with the detection of each keypoint.
+
+
+The anomaly labels are provided in .npy format, with one label file for each video. The labeling follows the same naming pattern as the corresponding video file, ensuring easy mapping between the video and its labels. So,each label file contains a NumPy array of binary values (0s and 1s). The length of the array corresponds to the total number of frames in the respective video. A value of 0 indicates a "normal" frame, where no shoplifting behavior is detected. A value of 1 indicates an "anomalous" frame, where shoplifting behavior is identified based on the observed actions within that frame.
 
 ## Benchmarking
 
