@@ -16,7 +16,7 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 3-**Pose-Based Annotations**: PoseLift provides bounding boxes, person IDs, and human pose annotations instead of raw videos to support privacy-preserving shoplifting detection.
 
 
-4-**Camera Views**: 6 indoor cameras (C1 to C6) from various aisles and locations in a local retail store in the USA. ![Cameras](Camera_Views.png)
+4-**Camera Views**: 6 indoor cameras (C1 to C6) from various aisles and locations in a local retail store in the USA. ![Cameras](Samples/Camera_Views.png)
 
 5-**Shoplifting and Shopping Instances**: The dataset consists of 153 files, including 43 instances of shoplifting and 110 instances of regular shopping activities. These were captured from various angles and locations to ensure diverse scenarios.
 
