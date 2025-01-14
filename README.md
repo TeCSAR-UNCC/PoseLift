@@ -19,8 +19,8 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 4-**Camera Views**: 6 indoor cameras (C1 to C6) from various aisles and locations in a local retail store in the USA. 
 <div align="center">
   <img src="Samples/Camera_Views.png" alt="Cameras" width="500">
+  <p><em>Figure 1: Segmented images from six camera views within a retail store, used in the PoseLift dataset.</em></p>
 </div>
-Figure 1: Segmented images from six camera views within a retail store, used in the PoseLift dataset.
 
 
 5-**Shoplifting and Shopping Instances**: The dataset consists of 153 files, including 43 instances of shoplifting and 110 instances of regular shopping activities. These were captured from various angles and locations to ensure diverse scenarios.
