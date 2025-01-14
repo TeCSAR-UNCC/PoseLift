@@ -90,7 +90,8 @@ If you use PoseLift in your research, please cite:
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2501.06591}
-}
+      }
+
 
 ## Contact
 If you have any questions or need assistance, please contact the authors at nrashvan@charlotte.edu.
