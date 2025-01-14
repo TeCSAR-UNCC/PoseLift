@@ -46,7 +46,7 @@ Where camera_number refers to the specific camera that captured the video, and v
 Each file offer detailed frame-by-frame annotations, including Person ID, bounding box, and keypoints for each individual in the frame.
 The annotations are organized in a dictionary structure, with each key representing a specific frame number. For each frame, the annotation includes:
 - **Person ID**: A unique identifier for each individual detected in the frame.
-- **Bounding Box**: Defined in the XYWH format, where X and Y are the coordinates , W is the width, and H is the height of the bounding box.
+- **Bounding Box**: Defined in the XYWH format, where X and Y are the coordinates, W is the width, and H is the height of the bounding box.
 - **Keypoints**: Represented in the XYC format, where X and Y are the coordinates of key points, and C is the confidence score associated with the detection of each keypoint.
 
 
