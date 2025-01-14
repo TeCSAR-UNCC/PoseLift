@@ -37,7 +37,7 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 
 
 ## Annotations and Shoplifting Labels:
-Each video in the PoseLift dataset is paired with a unique annotation file stored in the .pkl (pickle) format, resulting in a total of 153 annotation files. The naming of the files has the following pattern:
+To ensure privacy preservation, we provide a pickle file (in .pkl format) for each original video in our dataset and we realese the pickle files, resulting in a total of 153 annotation files corresponding to 153 original videos. The files are named according to the following pattern:
 
 <camera_number>_<video_number>.pkl
 
