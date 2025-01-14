@@ -1,7 +1,7 @@
 # PoseLift: Exploring Pose-Based Anomaly Detection for Retail Security: A Real-World Shoplifting Dataset and Benchmark
 
 ## Overview
-This directory contains the PoseLift dataset published in WACV 2025 conference. PoseLift is a dataset created specifically for detecting shoplifting behaviors using pose-based anomaly detection techniques. Built in collaboration with a retail store, PoseLift captures real-world shopping and shoplifting behaviors while addressing key challenges such as privacy concerns. The PoseLift dataset includes pose sequence data and frame-level labels for shoplifting. You can find the paper in the following link: [Exploring Pose-Based Anomaly Detection for Retail Security: A Real-World Shoplifting Dataset and Benchmark](https://arxiv.org/abs/2501.06591)
+This directory contains the PoseLift dataset published in WACV 2025 conference. PoseLift is a dataset created specifically for detecting shoplifting behaviors using pose-based anomaly detection techniques. Built in collaboration with a retail store, PoseLift captures real-world shopping and shoplifting behaviors while addressing key challenges such as privacy concerns. The PoseLift dataset includes pose sequence data and frame-level labels for shoplifting. You can find the paper in the following link: [Exploring Pose-Based Anomaly Detection for Retail Security: A Real-World Shoplifting Dataset and Benchmark.](https://arxiv.org/abs/2501.06591)
 
 ## Dataset Description
 
