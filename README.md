@@ -89,7 +89,7 @@ If you use PoseLift in your research, please cite:
       eprint={2501.06591},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.06591}, 
+      url={https://arxiv.org/abs/2501.06591}
 }
 
 ## Contact
