@@ -23,7 +23,7 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 </div>
 
 
-5-**Shoplifting and Shopping Instances**: The dataset consists of 153 files, including 43 instances of shoplifting and 110 instances of regular shopping activities. These were captured from various angles and locations to ensure diverse scenarios.
+5-**Shoplifting and Shopping Instances**: The dataset consists of 153 files, including 43 instances of shoplifting and 112 instances of regular shopping activities. These were captured from various angles and locations to ensure diverse scenarios.
 
 
 ## Data Processing
