@@ -7,11 +7,10 @@ This directory contains the PoseLift dataset published in WACV 2025 conference. 
 
 ### Features 
 1-**Privacy-Preserving**
-The dataset includes pose sequences derived from CCTV footage, with anonymized human identities and no raw pixel-level video data, ensuring compliance with privacy regulations.
+The dataset includes pose sequences derived from CCTV footage, with anonymized human identities and no raw pixel-level video data. This ensures full following of privacy regulations and safeguards individual privacy.
 
 
-2-**Real-World Data and Diverse Shoplifting Behaviors**: Recorded in a retail store with various camera views, the footage includes both normal shopping and shoplifting behaviors. The dataset captures a broad range of shoplifting scenarios in different locations across the store. The shoplifting behaviors demonstrated in these videos included actions such as placing items into pockets, placing them in bags, and hiding them under shirts, jackets, and pants.
-
+2-**Real-World Data**: PoseLift is developed through close collaboration with a local retail store, ensuring that it captures authentic shoplifting incidents alongside normal shopping behaviors in real-world retail environment.
 
 3-**Pose-Based Annotations**: PoseLift provides bounding boxes, person IDs, and human pose annotations instead of raw videos to support privacy-preserving shoplifting detection.
 
@@ -22,8 +21,10 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
   <p><em>Figure 1: Segmented images from six camera views within a retail store, used in the PoseLift dataset.</em></p>
 </div>
 
+5-**Diverse Shoplifting Behaviors**: The dataset includes a wide range of normal shopping behaviors alongside real shoplifting activities. The shoplifting behaviors demonstrated in these videos included actions such as placing items into pockets, placing them in bags, and hiding them under shirts, jackets, and pants. 
 
-5-**Shoplifting and Shopping Instances**: The dataset consists of 153 files, including 43 instances of shoplifting and 112 instances of regular shopping activities. These were captured from various angles and locations to ensure diverse scenarios.
+
+6-**Shoplifting and Shopping Instances**: The dataset consists of 153 files, including 43 instances of shoplifting and 112 regular shopping activities. These were captured from various angles and locations to ensure diverse scenarios.
 
 
 ## Data Processing
