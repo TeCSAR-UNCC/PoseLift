@@ -26,9 +26,15 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 
 <table>
   <tr>
-    <td><img src="Samples/1.gif" height="300" width="300" /></td>
-    <td><img src="Samples/2.gif" height="300" width="300" /></td>
-    <td><img src="Samples/3.gif" height="300" width="300" /></td>
+    <td><img src="Samples/1.gif" height="300" width="300" />Hiding an item in their pants</td>
+    <td><img src="Samples/2.gif" height="300" width="300" />Hiding an item under their T-shirt</td>
+    <td><img src="Samples/3.gif" height="300" width="300" />Placing an item in their pockets</td>
+  </tr>
+  <tr>
+    <td style="text-align: center;"></td>
+    <td style="text-align: center;"></td>
+    <td style="text-align: center;"></td>
+    
   </tr>
 </table>
 
