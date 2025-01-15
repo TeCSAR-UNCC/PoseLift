@@ -26,9 +26,9 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 
 <table>
   <tr>
-    <td><img src="Samples/1.gif" width="300" /></td>
-    <td><img src="Samples/2.gif" width="300" /></td>
-    <td><img src="Samples/3.gif" width="300" /></td>
+    <td><img src="Samples/1.gif" height="200" width="300" /></td>
+    <td><img src="Samples/2.gif" height="200" width="300" /></td>
+    <td><img src="Samples/3.gif" height="200" width="300" /></td>
   </tr>
 </table>
 
