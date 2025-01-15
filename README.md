@@ -38,25 +38,6 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
   </tr>
 </table>
 
-
-<table>
-  <tr>
-    <td style="text-align: center;">
-      <img src="Samples/1.gif" height="300" width="300" /><br />
-      Hiding an item in their pants
-    </td>
-    <td style="text-align: center;">
-      <img src="Samples/2.gif" height="300" width="300" /><br />
-      Hiding an item under their T-shirt
-    </td>
-    <td style="text-align: center;">
-      <img src="Samples/3.gif" height="300" width="300" /><br />
-      Placing an item in their pockets
-    </td>
-  </tr>
-</table>
-
-
 6- **Shoplifting and Shopping Instances**: The dataset consists of 153 instances, including 43 instances of shoplifting and 112 regular shopping files. These were captured from various angles and locations to ensure diverse scenarios.
 
 
