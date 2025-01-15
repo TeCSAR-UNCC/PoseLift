@@ -92,7 +92,8 @@ If you find our work useful, please consider citing:
       year={2025},
       eprint={2501.06591},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://doi.org/10.48550/arXiv.2501.06591}
       }
 ```
 
