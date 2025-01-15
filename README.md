@@ -85,7 +85,7 @@ PoseLift is designed for research on shoplifting detection, particularly in real
 ## Citation
 If you find our work useful, please consider citing: 
 
-
+```bibetex
 @article{rashvand2025exploringposebasedanomalydetection,
       title={Exploring Pose-Based Anomaly Detection for Retail Security: A Real-World Shoplifting Dataset and Benchmark}, 
       author={Narges Rashvand and Ghazal Alinezhad Noghre and Armin Danesh Pazho and Shanle Yao and Hamed Tabkhi},
@@ -94,8 +94,7 @@ If you find our work useful, please consider citing:
       archivePrefix={arXiv},
       primaryClass={cs.CV}
       }
-
-
+```
 
 ## Contact
 If you have any questions or need assistance, please contact the authors at nrashvan@charlotte.edu.
