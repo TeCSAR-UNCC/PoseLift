@@ -23,6 +23,8 @@ The dataset includes pose sequences derived from CCTV footage, with anonymized h
 
 5- **Diverse Shoplifting Behaviors**: The dataset includes a wide range of normal shopping behaviors alongside real shoplifting activities. The shoplifting behaviors demonstrated in these videos included actions such as placing items into pockets, placing them in bags, and hiding them under shirts, jackets, and pants. 
 
+![GIF](Samples/1.gif)
+
 
 6- **Shoplifting and Shopping Instances**: The dataset consists of 153 instances, including 43 instances of shoplifting and 112 regular shopping files. These were captured from various angles and locations to ensure diverse scenarios.
 
