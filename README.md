@@ -87,7 +87,7 @@ We provide benchmark results for the State-of-the-art pose-based anomaly detecti
 To download the annotations and anomaly labels, please use the following link:
 
 
-[PoseLift](https://drive.google.com/drive/folders/1aEkENZlVE4ZvF_BZXV1VJOwuiXQq6trn?usp=sharing)
+[PoseLift]([https://drive.google.com/drive/folders/1aEkENZlVE4ZvF_BZXV1VJOwuiXQq6trn?usp=sharing](https://drive.google.com/drive/folders/1aEkENZlVE4ZvF_BZXV1VJOwuiXQq6trn?usp=drive_link)
 
 ## Usage
 PoseLift is designed for research on shoplifting detection, particularly in real-world retail settings. Researchers can use the dataset for:
