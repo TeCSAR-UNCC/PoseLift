@@ -103,7 +103,7 @@ PoseLift is designed for research on shoplifting detection, particularly in real
 •	Exploring methods for detecting complex behaviors like shoplifting in natural settings.
 
 ## Licensing and Commercial Use
-For inquiries regarding licensing and commercial use of the PoseLift dataset, please contact
+For questions regarding licensing and commercial use of the PoseLift dataset, please contact
 [invent@charlotte.edu](mailto:invent@charlotte.edu).
 
 
